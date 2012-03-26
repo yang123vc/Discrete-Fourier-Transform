@@ -1,12 +1,20 @@
+/*
+ * Copyright S.V. Paulauskas 2012
+ * stanpaulauskas@gmail.com 
+ * Distributed under GNU General Public Licence v3
+ */
+
 /**
  * \file DiscreteFourierAnalysis.cpp
- * Class that does Fourier (inverse) Transforms
- * Written : S.V. Paulauskas - 15 Jan 2012
+ * A class for performing Discrete Fourier Transforms (DFT). 
+ * This class also performs an inverse transform.
+ * \author S.V. Paulauskas
+ * \date 15 January 2012
  */
 #include <cmath>
 #include <cstdlib>
 
-#include "DiscreteFourierAnalysis.h"
+#include "DiscreteFourierAnalysis.hpp"
 
 using namespace std;
 
