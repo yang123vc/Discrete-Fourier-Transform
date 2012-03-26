@@ -1,8 +1,8 @@
-/********************************************************
- ** \file DiscreteFourierAnalysis.cpp
- ** Class that does Fourier (inverse) Transforms
- ** Written : S.V. Paulauskas - 15 Jan 2012
- *******************************************************/
+/**
+ * \file DiscreteFourierAnalysis.cpp
+ * Class that does Fourier (inverse) Transforms
+ * Written : S.V. Paulauskas - 15 Jan 2012
+ */
 #include <cmath>
 #include <cstdlib>
 
