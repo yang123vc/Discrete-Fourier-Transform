@@ -4,7 +4,6 @@
 
 #include <cmath>
 #include <cstdlib>
-//#include <cstring>
 
 #include "DiscreteFourierAnalysis.h"
 
@@ -27,7 +26,7 @@ int main(int argc, char* argv[])
       }
    }else {
       cout << "Unable to open input file.  Exiting...." << endl;
-      exit(2);
+      exit(1);
    }
    inputFile.close();
 
@@ -66,7 +65,7 @@ int main(int argc, char* argv[])
    }else {
       cout << "Unable to open output file for Inverse Transform.  Exiting...." 
 	   << endl;
-      exit(2);
+      exit(3);
    }
    outputInv.close();
 }
