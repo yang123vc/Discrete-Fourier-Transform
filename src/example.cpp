@@ -72,6 +72,7 @@ int main(int argc, char* argv[]) {
     ofstream outputTrans;
     outputTrans.open("res/trans.dat");
     if(outputTrans.is_open()) {
+        outputTrans << "Sample    Real    Imaginary   Mod" << endl;
         for(unsigned int a = 0; a < reTrans->size(); a++)
             outputTrans << a << " " << reTrans->at(a) << " " 
                         << imTrans->at(a) << " " << modTrans->at(a) << endl;
@@ -85,6 +86,7 @@ int main(int argc, char* argv[]) {
     ofstream outputInv;
     outputInv.open("res/inv.dat");
     if(outputInv.is_open()) {
+        outputInv << "Sample    Real    Imaginary   Mod" << endl;
         for(unsigned int a = 0; a < reInv->size(); a++)
             outputInv << a << " " << reInv->at(a) << " " 
                       << imInv->at(a) << " " << modInv->at(a) << endl;
