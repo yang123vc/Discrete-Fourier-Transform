@@ -22,7 +22,7 @@ PROGRAM = example
 VERSION = $(shell git describe --abbrev=0 --tags)
 
 #Define Objects
-MAINO = main.o
+MAINO = example.o
 DFTO = DiscreteFourierAnalysis.o
 
 #DefineSharedObject
